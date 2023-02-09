@@ -1,8 +1,24 @@
 h1 {
     color: red;
     font-size: 35px;
-    
+    background-color: ghostwhite;
 }
 body{
-    background-color: lightgray;
+    backface-visibility: hidden;
+    background-image: url("pictures/Tło_pic2.jpeg");
+    background-size: cover;
+    background-color: gainsboro;
+    margin: 15px;
+}
+h2{
+    color: black;
+    background-color: white;
+}
+p1{
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 350px;
+    height: 500px;
+    margin: 15px;
 }
