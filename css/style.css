@@ -1,24 +1,60 @@
-h1 {
-    color: red;
-    font-size: 35px;
-    background-color: ghostwhite;
+header{
+    
+    height: 400px;
+    background-image: url("../pictures/stacja.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items:flex-end;
+    justify-content:center
+    
+    
+    
+    
+   
 }
-body{
-    backface-visibility: hidden;
-    background-image: url("pictures/Tło_pic2.jpeg");
+.naglowek{
+    display: block;
+    
+    
+}
+.naglowek h1{
+    font-size: 32px;
+    color: antiquewhite;
+    background-color: black;
     background-size: cover;
-    background-color: gainsboro;
-    margin: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkred;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-h2{
-    color: black;
+.naglowek h2{
+    font-size: 25px;
+    color: antiquewhite;
+    border-radius:10px;
+    background-color: black;
+    width: 280px;
+    border-style: solid;
+    border-color: darkred;
+    margin-left: 250px;
+    text-align: center;
+    
+    
+}
+body{ 
+    font-family: Times New Roman;
+    font-family: sans-serif;
     background-color: white;
+    margin: 0;
+    padding: 0;
+    
+    
 }
-p1{
-    border-radius: 25px;
-    background: white;
-    padding: 20px;
-    width: 350px;
-    height: 500px;
-    margin: 15px;
-}
+
+
