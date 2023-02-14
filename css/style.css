@@ -1,5 +1,4 @@
 header{
-    
     height: 400px;
     background-image: url("../pictures/stacja.jpg");
     background-size:cover;
@@ -8,17 +7,12 @@ header{
     display: flex;
     align-items:flex-end;
     justify-content:center
-    
-    
-    
-    
-   
 }
+
 .naglowek{
-    display: block;
-    
-    
+    display: block;  
 }
+
 .naglowek h1{
     font-size: 32px;
     color: antiquewhite;
@@ -31,9 +25,9 @@ header{
     height: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
+
 .naglowek h2{
     font-size: 25px;
     color: antiquewhite;
@@ -44,17 +38,43 @@ header{
     border-color: darkred;
     margin-left: 250px;
     text-align: center;
-    
-    
 }
+
 body{ 
     font-family: Times New Roman;
     font-family: sans-serif;
-    background-color: white;
+    background-color: lightgrey;
     margin: 0;
-    padding: 0;
-    
-    
+    padding: 0; 
+    background-color:white;
+}
+.kontent{
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: red;
+    display: flex;
+}
+.kontent .kontent1{
+    border-style: solid;
+    border-color: red;
+    width: 500;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+.kontent .kontent1 .image1{
+    border-style: solid;
+    border-color: red;
 }
 
+.kontent .kontent2{
+    border-style: solid;
+    border-color: red;
+    width: 500;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
 
