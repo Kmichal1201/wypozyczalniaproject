@@ -8,19 +8,33 @@ header{
     align-items:flex-end;
     justify-content:center
 }
-
+.navi{ 
+    color: white;
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 30px;
+    align-items: center;
+    justify-items: center;
+    justify-content:flex-start;
+}
+.navi a{
+    color: white;
+    margin-left: 20px;
+    border-radius: 5px;
+}
 .naglowek{
     display: block;  
 }
 
 .naglowek h1{
     font-size: 32px;
-    color: antiquewhite;
+    color: white;
     background-color: black;
     background-size: cover;
     border-radius: 10px;
     border-style: solid;
-    border-color: darkred;
+    border-color: red;
     width: 800px;
     height: 100px;
     display: flex;
@@ -30,51 +44,151 @@ header{
 
 .naglowek h2{
     font-size: 25px;
-    color: antiquewhite;
-    border-radius:10px;
+    color: white;
+    border-radius:5px;
     background-color: black;
     width: 280px;
     border-style: solid;
-    border-color: darkred;
+    border-color: red;
     margin-left: 250px;
     text-align: center;
 }
 
+* {
+  font-family: Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
 body{ 
-    font-family: Times New Roman;
-    font-family: sans-serif;
-    background-color: lightgrey;
+    background-color:whitesmoke;
     margin: 0;
     padding: 0; 
-    background-color:white;
+    
 }
 .kontent{
     margin: 10px;
     padding: 10px;
     justify-content: space-between;
-    border-style: solid;
-    border-color: red;
+    border-radius: 10px;
     display: flex;
 }
 .kontent .kontent1{
     border-style: solid;
-    border-color: red;
-    width: 500;
+    border-color: white;
+    width: 600;
     border-radius: 10px;
     background-color: white;
     text-align: center;
+    margin-left: 50px;
+   
 }
-.kontent .kontent1 .image1{
+.kontent .kontent1 .opis {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
     border-style: solid;
     border-color: red;
+    width: 300px;
+    text-align: center;
+    margin-left: 75px
 }
+
 
 .kontent .kontent2{
     border-style: solid;
-    border-color: red;
-    width: 500;
+    border-color: white;
+    width: 600;
     border-radius: 10px;
     background-color: white;
     text-align: center;
+    margin-right: 50px;
 }
-
+.kontent .kontent2 .opis{
+   border-radius: 5px;
+    background-color: black;
+    border-style: solid;
+    border-color: red;
+    color: white;
+    width: 300px;
+    text-align: center;
+    margin-left: 75px 
+}
+.sekcja2{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: auto;
+    border-radius: 10px;
+}
+.sekcja2 .opis{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 70px;
+    height: auto;
+    
+}
+.sekcja2 .opis .h1{
+    text-align: center;
+    margin: 20px 10px 20px 35px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+    width: 300px;
+}
+.sekcja2 .wymogi{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 70px;
+    height: auto;
+}
+.sekcja2 .wymogi .h2{
+    text-align: center;
+    margin: 20px 10px 20px 35px;
+    background-color: black;
+    border-style: solid;
+    border-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 300px;
+}
+.sekcja2 li{
+    margin: 10px 10px 10px 10px;
+}
+.sekcja3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    justify-content:space-around;
+    margin: 20px 0px 20px 320px;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+.sekcja3 a{
+    margin: 20px 10px 10px 110px;
+    width: 300px;
+    border-style: solid;
+    border-color: red;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 19px;
+    font-style: bold;
+}
+.sekcja3 p{
+    margin: 5px 5px 5px 10px;
+    font-weight: 700;
+}
