@@ -1,0 +1,92 @@
+header{
+    
+    height: 400px;
+    background-image: url("../pictures/stacja.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items:flex-end;
+    justify-content:center;
+}
+.navi{ 
+    color: white;
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 30px;
+    align-items: center;
+    justify-items: center;
+    justify-content:flex-start;
+}       
+.navi p{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.navi a{
+    color: white;
+    margin-right: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.navi a:hover{
+    color: red;
+    border-bottom: solid white;
+    
+}
+.naglowek{
+    display: block;  
+}
+
+.naglowek h1{
+    font-size: 32px;
+    color: white;
+    background-color: black;
+    background-size: cover;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: red;
+    width: 850px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-weight: 700;
+    
+}
+
+.naglowek button{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    color: white;
+    border-radius:5px;
+    background-color: black;
+    width: 280px;
+    border-style: solid;
+    border-color: red;
+    margin-left: 280px;
+    text-align: center;
+    cursor: pointer;
+}
+.naglowek button:hover{
+    border: solid white 2px;
+    color: red;
+}
+
+* {
+    font-family: Open Sans, serif;
+    box-sizing: border-box;
+
+}
+i {
+    padding:0px 8px;
+}
+
+body{ 
+    background-color:#001e2e;
+    margin: 0;
+    padding: 0; 
+}
