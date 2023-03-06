@@ -120,7 +120,6 @@ i{
     margin-right: 5px;
 }
 
-
 .kontent .kontent2{
     border-style: solid;
     border-color: white;
@@ -234,7 +233,47 @@ i{
 }
 .stopka{
     width: auto;
-    height: 400px;
+    height: auto;
     background: black;
     display: flex;
+    color: white;
+    align-items: flex-start;
+    padding: 0px 100px;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    
+}
+.social-media a{
+    text-decoration: none;
+    color: white;
+    margin: 7px 0px;
+}
+.social-media a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.o-nas{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+.o-nas i{
+    color:white;
+}
+.copyright{
+    background: black;
+    text-align: center;
+    color:#444444;
+    margin: 0px;
+}
+.copyright p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 8px;
 }
