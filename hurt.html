@@ -5,7 +5,8 @@
         <link rel="stylesheet" href="https://kit.fontawesome.com/8d3830eb12.css" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/8d3830eb12.js" crossorigin="anonymous"></script>
-        <title> OilArt Hurtowa Sprzedaż Paliw</title>
+        <link rel="shortcut Icon" href="pictures/photo.jpg" />
+        <title>OilArt Hurtowa Sprzedaż Paliw</title>
         <link rel="stylesheet" href="css/stylehurt.css">
         <script type="text/javascript" src="js/apphurt.js"></script>
     </head>
@@ -23,37 +24,173 @@
             <button>Sprawdź Ofertę <i class="fa-solid fa-file-signature"></i></button>
             </section> 
         </header>
-        <section>
-            <div class="wykres-brent"><!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div id="tradingview_b67e4"></div>
-  <div class="tradingview-widget-copyright"><a href="https://pl.tradingview.com/symbols/UKOIL/" rel="noopener" target="_blank"><span class="blue-text">UKOIL wykres</span></a> od TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-  <script type="text/javascript">
-  new TradingView.widget(
-  {
-  "width": 980,
-  "height": 400,
-  "symbol": "TVC:UKOIL",
-  "interval": "W",
-  "timezone": "Etc/UTC",
-  "theme": "light",
-  "style": "2",
-  "locale": "pl",
-  "toolbar_bg": "#f1f3f6",
-  "enable_publishing": false,
-  "allow_symbol_change": true,
-  "container_id": "tradingview_b67e4"
-}
-  );
-  </script>
-</div>
-<!-- TradingView Widget END -->
-            </div>
-            <div class="wykres-waluty">
-                
+        <section class="section1">
+            <div class="wykres-brent">
+                <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                    <div id="tradingview_b67e4"></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                    <script type="text/javascript">
+                      new TradingView.widget(
+                      {
+                      "width": 980,
+                      "height": 350,
+                      "symbol": "TVC:UKOIL",
+                      "interval": "W",
+                      "timezone": "Etc/UTC",
+                      "theme": "light",
+                      "style": "2",
+                      "locale": "pl",
+                      "toolbar_bg": "#f1f3f6",
+                      "enable_publishing": false,
+                      "allow_symbol_change": true,
+                      "container_id": "tradingview_b67e4"
+                    }
+                      );
+                      </script>
+                </div>
+                <!-- TradingView Widget END -->
             </div>
         </section>
-        
-  
+        <section class="section-currency">
+            <div class="currency">
+               <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                  <div class="tradingview-widget-container__widget"></div>
+                  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                  {
+                  "symbol": "FX_IDC:USDEUR",
+                  "width": "400",
+                  "height": "220",
+                  "locale": "pl",
+                  "dateRange": "3M",
+                  "colorTheme": "light",
+                  "trendLineColor": "rgba(41, 98, 255, 1)",
+                  "underLineColor": "rgba(41, 98, 255, 0.3)",
+                  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+                  "isTransparent": false,
+                  "autosize": false,
+                  "largeChartUrl": ""
+                }
+                  </script>
+                </div>
+                <!-- TradingView Widget END --> 
+                <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                  <div class="tradingview-widget-container__widget"></div>
+                  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                  {
+                  "symbol": "FX_IDC:EURPLN",
+                  "width": "400",
+                  "height": "220",
+                  "locale": "pl",
+                  "dateRange": "3M",
+                  "colorTheme": "light",
+                  "trendLineColor": "rgba(41, 98, 255, 1)",
+                  "underLineColor": "rgba(41, 98, 255, 0.3)",
+                  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+                  "isTransparent": false,
+                  "autosize": false,
+                  "largeChartUrl": ""
+                }
+                  </script>
+                </div>
+                <!-- TradingView Widget END -->
+                <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                  <div class="tradingview-widget-container__widget"></div>
+                  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                  {
+                  "symbol": "FX_IDC:USDPLN",
+                  "width": "400",
+                  "height": "220",
+                  "locale": "pl",
+                  "dateRange": "3M",
+                  "colorTheme": "light",
+                  "trendLineColor": "rgba(41, 98, 255, 1)",
+                  "underLineColor": "rgba(41, 98, 255, 0.3)",
+                  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+                  "isTransparent": false,
+                  "autosize": false,
+                  "largeChartUrl": ""
+                }
+                  </script>
+                </div>
+                <!-- TradingView Widget END -->
+            </div>
+            <div class="currency-description">
+                <div class="description">
+                    <h>Ceny paliw (hurt)</h>
+                    <p>Ceny paliw w Polsce ustalane są przez producentów na podstawie uwarunkowań rynkowych sterowanych zjawiskami zachodzącymi na światowych rynkach produktów naftowych, stanem gospodarki polskiej i polityki fiskalnej państwa.</p>
+                    <ul>
+                        <p>Na wysokość cen hurtowych paliw wpływają przede wszystkim:</p>
+                        <li>podatki i opłaty nakładane na paliwa czyli akcyza, opłata paliwowa i VAT oraz opłata zapasowa</li>
+                        <li>cena ropy naftowej oraz gotowych produktów na światowych giełdach</li>
+                        <li>kurs dolara</li>
+                        <li>warunki na rynku krajowym kształtowane przez konkurencję.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="offer">
+            <div class="offer-header"><h>OFERTA</h></div>
+            <div class="offer-description">
+                <p>
+                    Firma OilArt specjalizuje się w sprzedaży paliw płynnych. W swojej ofercie posiada oleje napędowe, oleje opałowe i benzyny z rafinerii oraz terminali zagranicznych i polskich. Nasze biuro oraz baza transportowa znajdują się w Pyrzycach. Obszar naszej działalności obejmuje wojewódzctwa Zachodniopomorskie oraz Lubuskie. Zapraszamy do współpracy.<i class="fa-solid fa-handshake"></i>
+                </p>
+            </div>
+            <div class="offer-header"><h>HURTOWA SPRZEDAŻ PALIW</h></div>
+            <div class="offer-container">
+                <div class="contact">
+                    <p><i class="fa-solid fa-address-book"></i>Kontakt:</p>
+                    <p><i class="fa-solid fa-truck-droplet"></i>OilArt Hurtowa Sprzedaż Paliw Artur Nowakowski</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>Tel. 506230848 - zamówienia</p>
+                    <p><i class="fa-solid fa-house-laptop"></i>Kościuszki 26, 74-200 Pyrzyce</p>
+                    <p><i class="fa-solid fa-at"></i>oilart@wp.pl</p>
+                    <p><i class="fa-solid fa-headset"></i>Zapraszamy do kontaktu.</p>
+                </div>
+                <div class="form">
+                    <h>Masz pytanie? Napisz do nas <i class="fa-solid fa-feather-pointed"></i></h>
+                    <form class="form-contact">
+                        <input type="text" placeholder="Firma lub osoba zainteresowana">
+                        <input type="email" placeholder="Email">
+                        <input type="tel" placeholder="Numer telefonu">
+                        <input type="text" placeholder="Temat">
+                        <textarea class="opis-tematu" type="text" placeholder="Opis tematu"></textarea> 
+                        <button>Wyślij wiadomość</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="move-arrow">
+            <div class="up"><i class="fa-solid fa-chevron-up"></i></div>
+            <div class="down"><i class="fa-solid fa-chevron-down"></i></div>
+        </section>
+        <footer class="stopka">
+            <div class="div1">
+                <ul class="social-media">
+                    <p><i class="fa-regular fa-thumbs-up"></i>Obserwuj nas w mediach społecznościowych</p>
+                    <a href="https://www.facebook.com/people/OilArt/100057378912321/"><i class="fa-brands fa-facebook"></i> Stacja Paliw - Facebook</a>
+                    <a href="https://www.facebook.com/people/Restauracja-Art-Roze/100034708376814/"><i class="fa-brands fa-facebook"></i>Restauracja - Facebook</a>
+                    <a href="https://restaurantguru.com/Restauracja-Art-Roze-Mysliborz"><i class="fa-solid fa-utensils"></i>Restaurant Guru</a>
+                    <a href="https://www.instagram.com/art_roze_restauracja/"><i class="fa-brands fa-square-instagram"></i>Restauracja - Instagram</a>
+                    <a href="https://www.google.com/maps/place/Stacja+paliw+OilArt/@52.855655,14.809764,14z/data=!4m6!3m5!1s0x470741c792a0f98d:0xab0984cf6f489706!8m2!3d52.853935!4d14.828636!16s%2Fg%2F11h_6lsrvj"><i class="fa-solid fa-map-location-dot"></i>Stacja Paliw - Mapa</a>
+                    <a href="https://www.google.com/maps/place/Restauracja+Art+Roze/@52.8539382,14.8264472,17z/data=!3m1!4b1!4m9!3m8!1s0x470741bc5b39eeb7:0xc32e8b701d0b442c!5m2!4m1!1i2!8m2!3d52.853935!4d14.8286359!16s%2Fg%2F11fn6rlpz0"><i class="fa-solid fa-map-location-dot"></i>Restauracja - Mapa</a>
+                    <a href="https://www.google.com/maps/place/OILART+HURTOWA+SPRZEDA%C5%BB+PALIW/@53.144982,14.884442,15z/data=!4m2!3m1!1s0x0:0xd8c19d7daa39ca60?sa=X&ved=2ahUKEwjez-TgnMf9AhUlposKHa-oB2MQ_BJ6BAhPEAk"><i class="fa-solid fa-map-location-dot"></i>Hurtowa Sprzedaż Paliw - Mapa</a>
+                </ul>
+            </div>
+            <div class="div2">
+                <ul class="o-nas">
+                    <p><i class="fa-solid fa-tty"></i>Kontakt</p>
+                    <p><i class="fa-solid fa-house-laptop"></i>Biuro - Kościuszki 26, 74-200 Pyrzyce<br>tel. 506 230 849</p>
+                    <p><i class="fa-solid fa-gas-pump"></i>Stacja - Pszczelnik 43, 74-300 Myślibórz<br>tel. 91 578 59 26</p>
+                    <p><i class="fa-solid fa-utensils"></i>Restauracja - Pszczelnik 43, 74-300 Myślibórz<br>tel. 91 578 59 26</p>
+                    <p><i class="fa-solid fa-van-shuttle"></i>Wynajem samochodów - Pszczelnik 43, 74-300 Myślibórz<br>tel. 506 230 849</p>
+                </ul>
+            </div>
+        </footer>
+        <div class="copyright">
+            <p><i class="fa-regular fa-copyright"></i>OilArt2023</p>
+        </div>
+    </body>
         
