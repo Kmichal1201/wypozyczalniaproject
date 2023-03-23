@@ -86,7 +86,7 @@ body{
     background-color:whitesmoke;
     margin: 0;
     padding: 0; 
-    
+    width: 100%;
 }
 .kontent{
     margin: 10px;
@@ -278,4 +278,54 @@ i{
     margin: 0px;
     font-size: 12px;
     font-weight: 500;
+}
+.kontener_zdjec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+.slider li img{
+    height: 400px;
+    width: 600px;  
+}
+.slider{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 600px;
+    overflow-x: hidden;
+    border-radius: 10px;
+}
+.slider-left, .slider-right{
+    font-size: 80px;
+}
+.slider-left:hover, .slider-right:hover{
+    color: red;
+    cursor: pointer;
+}
+.galery-title{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: solid;
+}
+.go-up, .go-down{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+.go-up i,.go-down i{
+    border: solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.go-up i:hover,.go-down i:hover{
+    color: red;
+    cursor: pointer;
 }

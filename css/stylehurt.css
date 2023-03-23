@@ -90,12 +90,13 @@ i {
 body{ 
     background-color:#001e2e;
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    width: 100%;
 }
 .wykres-brent{
     margin: 0px;
     padding: 20px;
-    padding-top: 40px
+    padding-top: 20px
 }
 .wykres-brent div{
     border-radius: 15px;
@@ -287,11 +288,15 @@ body{
     background-color: red;
     cursor: pointer;
 }
-.move-arrow{
+.up-arrow, .down-arrow{
     color: white;
     display: flex;
     font-size: 50px;
     flex-direction: column;
     align-items: flex-end;
     padding: 0px 20px;
+}
+.up:hover, .down:hover{
+    color: red;
+    cursor: pointer;
 }
