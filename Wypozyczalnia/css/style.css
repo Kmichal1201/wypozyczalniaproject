@@ -11,7 +11,7 @@ header{
 }
 .navi{ 
     color: white;
-    display: flex;
+    display: none;
     background-color: black;
     color: white;
     height: 30px;
@@ -162,7 +162,7 @@ i{
 }
 .sekcja2 .opis .h1{
     text-align: center;
-    margin: 20px 10px 20px 35px;
+    margin: 20px 40px 20px 35px;
     background-color: black;
     color: white;
     border-style: solid;
@@ -183,7 +183,7 @@ i{
 }
 .sekcja2 .wymogi .h2{
     text-align: center;
-    margin: 20px 10px 20px 35px;
+    margin: 20px 40px 20px 35px;
     background-color: black;
     border-style: solid;
     border-color: red;
@@ -291,13 +291,17 @@ i{
     height: 400px;
     width: 600px;  
 }
+.galery{
+    overflow-x: hidden;
+    border-radius: 15px;
+}
 .slider{
     display: flex;
     list-style: none;
     padding: 0;
+    margin: 0;
     width: 600px;
-    overflow-x: hidden;
-    border-radius: 10px;
+    position: relative;
 }
 .slider-left, .slider-right{
     font-size: 80px;
