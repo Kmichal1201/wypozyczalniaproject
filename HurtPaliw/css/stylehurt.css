@@ -1,5 +1,5 @@
 header{
-    
+    width: auto;
     height: 400px;
     background-image: url("../pictures/stacja.jpg");
     background-size:cover;
@@ -10,6 +10,7 @@ header{
     justify-content:center;
 }
 .navi{ 
+    width: auto;
     color: white;
     display: flex;
     background-color: black;
@@ -91,10 +92,14 @@ body{
     background-color:#001e2e;
     margin: 0px;
     padding: 0px;
-    width: auto;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 .wykres-brent{
+    width: 100%;
     margin: 0px;
     padding: 20px;
     padding-top: 20px
@@ -103,6 +108,7 @@ body{
     border-radius: 15px;
 }
 .section-currency{
+    width: 100%;
     padding: 20px 100px;
     display: flex;
     flex-direction: column;
@@ -153,6 +159,7 @@ body{
     opacity:
 }
 .offer{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,7 +205,7 @@ body{
     border-radius: 10px;
 }
 .stopka{
-    width: auto;
+    width: 100%;
     height: auto;
     background: black;
     display: flex;
@@ -300,4 +307,20 @@ body{
 .up:hover, .down:hover{
     color: red;
     cursor: pointer;
+
+}
+@media (min-width: 768px) {
+  body {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    width: 1150px;
+  }
+}
+@media (min-width: 1300px) {
+  body {
+    width: auto;
+  }
 }
